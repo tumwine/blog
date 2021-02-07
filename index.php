@@ -1,5 +1,6 @@
 <?php 
     include("path.php");
+    session_start();
 ?>
 
 <?php include(ROOT_PATH . "/app/controllers/topics.php");?>
